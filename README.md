@@ -1,5 +1,6 @@
 # Covid-19TMS
 It is a mini project made with php, html and css.
+CSS files and SIDEBAR files are in includes folder.
 
 Steps to open this project in your device.
 1: Downlaod the file.
