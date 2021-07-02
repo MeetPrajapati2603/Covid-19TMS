@@ -1,0 +1,107 @@
+/* Style the sidebar - fixed full height */
+.sidebar {
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #235488;
+    overflow-x: hidden;
+    padding-top: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  
+  /*Style sidebar heading*/
+  .sh_text{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FEF0E5;
+    display: block;
+    opacity: 40%;
+  }
+  
+  .sidebar i{
+    padding: 6px 8px 6px 1px;
+  }
+  
+  .dropdown-container hr{
+    border-width: 0.1px;
+    width: 80%;
+  }
+  
+  
+  /*Dropdown*/
+  .sidebar  .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FEF0E5;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .sidebar .dropdown-container {
+    display: none;
+    background-color: #687fc5;
+    padding-left: 8px;
+  }
+  
+  .sidebar .dropdown-container a{
+    font-size: 15px;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #5de7ff;
+    
+  }
+  
+  
+  
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fee5e8;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #5de7ff;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 15%; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .dropdown-container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    padding: .3rem 0;
+    min-width: 10rem;
+    font-size: 0.85rem;
+    margin: 1px;
+    z-index: 1;
+    top: 2px;
+  }

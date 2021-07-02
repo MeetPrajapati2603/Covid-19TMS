@@ -1,0 +1,82 @@
+/* Float four columns side by side */
+.column {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-top: 0.5rem !important;
+    padding-left: 2.5rem;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    flex-basis: 0;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center !important;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center !important;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+
+    flex: 1 1 auto;
+    height: 100px;
+    width: 250px;
+    padding: .75rem;
+    background-color: azure;
+    border-radius: 5%;
+    border-left: 0.25rem solid #4e73df !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.text {
+    font-size: .9rem;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.number {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    font-weight: 700 !important;
+    color: #5a5c69 !important;
+}
+
+.logocolumn {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 12rem;
+
+}
+.container {
+    overflow-x: hidden;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0.75rem;
+    margin-right: 0;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

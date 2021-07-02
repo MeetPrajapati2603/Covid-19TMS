@@ -1,0 +1,114 @@
+#wrapper {
+    display: flex;
+    background-color: #f9f9f4;
+    width: 100%;
+    overflow-x: hidden;
+    flex: 1 0 auto;
+}
+
+#content-wrapper {
+    background-color: #f9f9f4;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.flex-column {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    width: 900px;
+    height: auto;
+    padding: 4px;
+    flex-direction: column;
+    flex: 1 0 0%;
+    word-wrap: break-word;
+    background-color: #f9f9f4;
+    background-clip: border-box;
+    margin-bottom: 0.75rem !important;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.table {
+    width: 100%;
+    margin: 2px;
+    color: #3f40a0;
+    align-items: center;
+    border: 1px solid #e3e6f0 !important;
+    border-collapse: collapse !important;
+}
+.table td,
+.table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #c8cbd6;
+    border: 1px solid #dddfeb !important;
+    background-color: #fff !important;
+}
+.button {
+    display: inline-block;
+    font-weight: 550;
+    color: #858796;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-left: 20px;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: rgb(59, 127, 148);
+    border-color: rgb(59, 127, 140);
+    border-radius: 10rem;
+    width: 70%;
+    padding: 0.25rem 0.2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,101 @@
+
+        .form-group {
+            display: flex;
+            flex: 0 0 auto;
+            flex-flow: row wrap;
+            align-items: center;
+            margin-bottom: 0;
+        }
+
+        .new-user-input {
+            display: block;
+            width: 97%;
+            height: calc(1.5em + 0.75rem + 1px);
+            padding: auto;
+            padding-left: 5px;
+            margin-left: 5px;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #6e707e;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #d1d3e2;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .lableText {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            margin-bottom: 1px;
+            padding-left: 5px;
+            color: rgb(58, 57, 57);
+        }
+
+        .new-submit {
+            display: block;
+            width: 95%;
+            height: calc(1.5em + 0.75rem + 1px);
+            padding: 0.375rem 0.75rem;
+            margin-left: 15px;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #ffffff;
+            background-color: rgb(59, 127, 148);
+            background-clip: padding-box;
+            border: 1px solid #d1d3e2;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .personalInfoCard,
+        .testingInfoCard {
+            margin: auto;
+            margin-left: 10px;
+            text-align: left;
+            background-color: rgb(255, 224, 224);
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .testingInfoCard {
+            padding-top: 0%;
+            margin-top: 0%;
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 45%;
+            padding: 0 30px;
+            flex: 0 0 50%;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: auto;
+            padding: auto;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }

@@ -1,0 +1,115 @@
+#wrapper {
+    display: flex;
+    background-color: #f9f9f4;
+    width: 100%;
+    overflow-x: hidden;
+    flex: 1 0 auto;
+}
+
+#content-wrapper {
+    background-color: #f5f5ef;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.flex-column {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    width: 450px;
+    height: 150px;
+    padding: 4px;
+    flex-direction: column;
+    flex: 1 0 0%;
+    word-wrap: break-word;
+    background-color: #f9f9f4;
+    background-clip: border-box;
+    margin-bottom: 0.75rem !important;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.275rem 0.75rem;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.button {
+    display: inline-block;
+    font-weight: 550;
+    color: #858796;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: rgb(59, 127, 148);
+    border-color: rgb(59, 127, 140);
+    border-radius: 10rem;
+    padding: 0.45rem 0.40rem;
+    width: 40%;
+  }
